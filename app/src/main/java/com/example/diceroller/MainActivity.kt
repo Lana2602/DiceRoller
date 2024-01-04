@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         resultTextView.text = diceRoll.toString()
     }
 
+
     class Dice(private val numSides: Int) {
 
         fun roll(): Int {
